@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* login */
+.form-login{
+    background-color: rgb(46, 145, 145);
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 40%;
+}
+.form-login>label{
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+.entradas, .botao-entradas{
+    border: none;
+    padding: 0 10px;
+    outline: 0;
+    border-radius: 5px;
+    margin: 3px;
+    height: 30px;
+}
+.botao-entradas{
+    width: 50%;
+    margin: 3px auto;
+}
+.entradas:focus{
+    background-color: rgb(224, 207, 255);
+}
+.links-registro>a{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+/* login */
